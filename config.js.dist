@@ -1,0 +1,16 @@
+module.exports = {
+
+	// listen on host and port
+	host: "localhost",
+	port: 3000,
+
+	// or listen on a socket instead
+	//	socket: "liftstream.sock",
+
+	// save elevator states here
+	statefile: "/tmp/elevents.json",
+
+	// adam api polling interval
+	interval: "30s"
+
+};
