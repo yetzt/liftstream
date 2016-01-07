@@ -2,9 +2,9 @@
   "name": "liftstream",
   "version": "0.0.1",
   "description": "streaming interface for db adam api",
-  "main": "liftstream.js",
+  "main": "lib/elevents.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/yetzt/liftstream/issues"
   },
-  "homepage": "https://github.com/yetzt/liftstream#readme"
+  "homepage": "https://github.com/yetzt/liftstream#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "dur": "0.0.2",
+    "express": "^4.13.3",
+    "express-sse": "^0.2.1",
+    "express-ws": "^0.2.6",
+    "request": "^2.67.0"
+  }
 }
