@@ -10,6 +10,9 @@ module.exports = {
 	// save elevator states here
 	statefile: "/tmp/elevents.json",
 
+	// log elevator events here
+	logfile: "/tmp/elevents.log",
+
 	// adam api polling interval
 	interval: "30s"
 
