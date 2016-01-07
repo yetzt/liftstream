@@ -37,6 +37,8 @@ The Interfaces are [http://localhost:3000/stream.sse](http://server:port/stream.
 
 Every message consists of a single JSON encoded object.
 
+You can test your Server with `wscat --connect wss://server:port/stream.ws` from the `ws` module.
+
 ## License
 
 [Unlicense](http://unlicense.org/UNLICENSE)
