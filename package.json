@@ -1,0 +1,31 @@
+{
+  "name": "liftstream",
+  "version": "0.0.1",
+  "description": "streaming interface for db adam api",
+  "main": "liftstream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yetzt/liftstream.git"
+  },
+  "keywords": [
+    "db",
+    "bahn",
+    "deutsche",
+    "bahn",
+    "aufzug",
+    "aufzüge",
+    "adam",
+    "lifts",
+    "escalators",
+    "brokenlifts"
+  ],
+  "author": "Sebastian Vollnhals <sv@dsst.io> (https://dsst.io/)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/yetzt/liftstream/issues"
+  },
+  "homepage": "https://github.com/yetzt/liftstream#readme"
+}
