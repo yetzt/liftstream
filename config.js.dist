@@ -14,6 +14,9 @@ module.exports = {
 	logfile: "/tmp/elevents.log",
 
 	// adam api polling interval
-	interval: "30s"
+	interval: "30s",
+	
+	// developer mode, sendig test data
+	dev: false
 
 };
