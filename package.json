@@ -1,6 +1,6 @@
 {
   "name": "liftstream",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "streaming interface for db adam api",
   "main": "lib/elevents.js",
   "scripts": {
